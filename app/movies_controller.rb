@@ -20,7 +20,7 @@ def can_be_created_with_a_hash_of_attributes
       lead: "Paul Newman",
       in_theaters: false
   }
-  movie = __
+  movie = Movie.can_be_instantiated_and_then_saved
 end
 
 def can_be_created_in_a_block(args = __)
